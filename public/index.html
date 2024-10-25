@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<title>Event App</title>
+</head>
+<body>
+<h1>Event App</h1>
+<div>
+<h2>Register</h2>
+<form id="register-form">
+<input type="text" placeholder="Username" required id="register-username">
+<input type="password" placeholder="Password" required id="register-password">
+<button type="submit">Register</button>
+</form>
+</div>
+<div>
+<h2>Login</h2>
+<form id="login-form">
+<input type="text" placeholder="Username" required id="login-username">
+<input type="password" placeholder="Password" required id="login-password">
+<button type="submit">Login</button>
+</form>
+</div>
+<div>
+<h2>Create Event</h2>
+<form id="event-form">
+<input type="text" placeholder="Title" required id="event-title">
+<input type="text" placeholder="Description" id="event-description">
+<input type="text" placeholder="Location" required id="event-location">
+<input type="date" required id="event-date">
+<button type="submit">Create Event</button>
+</form>
+</div>
+<div>
+<h2>Events</h2>
+<ul id="event-list"></ul>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
